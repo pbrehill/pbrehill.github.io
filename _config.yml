@@ -11,7 +11,7 @@ locale                   : "en-AU"
 title                    : "Patrick Rehill"
 title_separator          : "-"
 name                     : &name "Patrick Rehill"
-description              : &description "POLIS: The Centre for Social Research at The Australian National University"
+description              : &description "Academic homepage of Patrick Rehill"
 url                      : https://pbrehill.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "pbrehill/pbrehill.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Patrick Rehill"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "I am a researcher working on causal machine learning methods and policy evaluation, currently based at the Australian National University and Australian Treasury."
   location         : "Melbourne, Australia"
   employer         : "Australian National University"
   uri              : # URL
@@ -58,7 +58,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "patrickrehill"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

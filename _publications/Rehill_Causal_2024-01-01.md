@@ -2,7 +2,7 @@
 title: "Causal machine learning in public policy evaluation--an application to the conditioning of cash transfers in Morocco"
 
 collection: publication
-category: preprint
+category: working_papers
 permalink: /publication/2024-01-01 00:00:00-Rehill_Causal_2024-01-01
 date: 2024-01-01 00:00:00
 venue: 'arXiv preprint arXiv:2401.07075'

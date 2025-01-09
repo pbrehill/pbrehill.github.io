@@ -2,7 +2,7 @@
 title: "Mental health and wellbeing during the COVID-19 period in Australia"
 
 collection: publication
-category: report
+category: reports
 permalink: /publication/2022-01-01 00:00:00-Biddle_Mental_2022-01-01
 date: 2022-01-01 00:00:00
 venue: ''

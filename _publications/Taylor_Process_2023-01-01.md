@@ -1,6 +1,6 @@
 ---
 title: "Process evaluation of the Justice Housing Program"
-collection: report
+collection: publicationcategory: report
 permalink: /publication/2023-01-01 00:00:00-Taylor_Process_2023-01-01
 date: 2023-01-01 00:00:00
 venue: ''

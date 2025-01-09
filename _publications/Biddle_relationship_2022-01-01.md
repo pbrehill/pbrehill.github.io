@@ -1,6 +1,6 @@
 ---
 title: "The relationship between COVID-19 policies and subjective wellbeing–August 2022 ANU Centre for Social Research and Methods"
-collection: report
+collection: publicationcategory: report
 permalink: /publication/2022-01-01 00:00:00-Biddle_relationship_2022-01-01
 date: 2022-01-01 00:00:00
 venue: ''

@@ -1,6 +1,6 @@
 ---
 title: "Guidance note: Equality Insights and individual-level, gender-sensitive measurement of multidimensional poverty and inequality"
-collection: report
+collection: publicationcategory: report
 permalink: /publication/2021-01-01 00:00:00-Crawford_Guidance_2021-01-01
 date: 2021-01-01 00:00:00
 venue: ''

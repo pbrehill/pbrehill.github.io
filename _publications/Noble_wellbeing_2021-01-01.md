@@ -1,6 +1,6 @@
 ---
 title: "The wellbeing of Australia’s children"
-collection: report
+collection: publicationcategory: report
 permalink: /publication/2021-01-01 00:00:00-Noble_wellbeing_2021-01-01
 date: 2021-01-01 00:00:00
 venue: ''

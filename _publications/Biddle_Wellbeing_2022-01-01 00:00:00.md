@@ -1,9 +1,9 @@
 ---
 title: "Wellbeing outcomes in Australia as lockdowns ease and cases increase–August 2022"
 collection: report
-permalink: /publication/2022-apo.org.au/node/319629
-date: 2022
-venue: 'ANU Centre for Social Research and Methods working paper'
+permalink: /publication/2022-01-01 00:00:00-Biddle_Wellbeing_2022-01-01 00:00:00
+date: 2022-01-01 00:00:00
+venue: ''
 paperurl: 'https://apo.org.au/node/319629'
 ---
 [Download paper here](https://apo.org.au/node/319629)

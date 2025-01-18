@@ -5,6 +5,5 @@ collection: publication
 category: working_papers
 permalink: /publication/2024-01-01 00:00:00-Rehill_Causal_2024-01-01
 date: 2024-01-01 00:00:00
-venue: 'arXiv preprint arXiv:2401.07075'
 paperurl: 'https://arxiv.org/pdf/2401.07075'
 ---

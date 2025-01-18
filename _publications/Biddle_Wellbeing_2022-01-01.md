@@ -8,4 +8,3 @@ date: 2022-01-01 00:00:00
 venue: ''
 paperurl: 'https://apo.org.au/node/319629'
 ---
-[Download paper here](https://apo.org.au/node/319629)

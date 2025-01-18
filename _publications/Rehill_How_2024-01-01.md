@@ -8,4 +8,3 @@ date: 2024-01-01 00:00:00
 venue: 'arXiv preprint arXiv:2404.13356'
 paperurl: 'https://arxiv.org/pdf/2404.13356'
 ---
-[Download paper here](https://arxiv.org/pdf/2404.13356)

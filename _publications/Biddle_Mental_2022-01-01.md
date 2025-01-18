@@ -8,4 +8,3 @@ date: 2022-01-01 00:00:00
 venue: ''
 paperurl: 'https://csrm.cass.anu.edu.au/sites/default/files/docs/2022/7/Mental_health_and_wellbeing_during_the_COVID-19_period.pdf'
 ---
-[Download paper here](https://csrm.cass.anu.edu.au/sites/default/files/docs/2022/7/Mental_health_and_wellbeing_during_the_COVID-19_period.pdf)

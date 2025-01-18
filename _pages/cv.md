@@ -45,6 +45,8 @@ Teaching experience
   * _University of Melbourne_
   * Tutored MULT30018 (Applied Research Methods), teaching quantitative research methods and SPSS to undergraduate social science students.
   
+[Publications](https://pbrehill.github.io/publications/)
+=====
 [//]: # (Skills)
 
 [//]: # (======)

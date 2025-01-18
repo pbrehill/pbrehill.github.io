@@ -7,5 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate at POLIS: The Centre for Social Research at the Australian National University. My main focus is on innovative methods for causal inference.
+I am a PhD candidate at POLIS: The Centre for Social Research at the Australian National University. My thesis is currently being examined.
+
+The focus of my research is on the causal forest as a method for public policy evaluation. The causal forest is a causal machine learning method for finding drivers of treatment effect heterogeneity — how a treatment affects different people differently. It is useful because standard approaches rely on pre-specifying hypotheses and then testing them. The causal forest allows evaluators to find drivers of treatment effect heterogeneity without needing to know what they are likely to be in advance while also avoiding p-hacking from looking through data for an effect. This is useful in public policy because it lets evaluators find unintended consequences of programs, and move beyond testing for heterogeneity only in the 'usual suspects' like age and gender.
+
+Outside of my doctoral work, I am currently working in the Australian Centre for Evaluation in the Australian Treasury and at the RMIT Department of Economics, Finance, and Marketing. In both these roles I work on social policy research using quasi-experimental or experimental designs, often using large, linked, administrative datasets. Prior to this, my background was as a data scientist / quantitative researcher working for government and not-for-profits.
 

@@ -28,9 +28,9 @@ Research experience
   * Conducting quantitative social policy research with large administrative datasets.
 * 2019 - 2023: Quantitative Research Consultant
     * _Independent Consultant_
-    * Conducting quantitative research for not-for-profits. Clients include UNICEF, IWDA, AEGN, and ARACY.
+    * Conducting quantitative research for not-for-profits. Clients include UNICEF, the International Womens Development Agency, Australian Environmental Grantmakers Network, and Australian Research Alliance for Children and Youth.
 * 2018 - 2020: Research Officer
-  * Australian Environmental Grantmakers Network
+  * _Australian Environmental Grantmakers Network_
   * Conducted philanthropic ecosystem mapping, including authoring the yearly Giving Trends report and a joint report with the Department of Environment and Energy.
 * 2017 - 2018: Research Analyst
   * _dandolopartners_
@@ -40,7 +40,7 @@ Teaching experience
 ======
 * 2023, 2024: Sessional Academic
   * _Australian National University_
-  * Co-convening SOCR8204 (Causal Inference) for Master of Applied Data Analytics students, focusing on experimental, quasi-experimental, and causal machine learning methods.
+  * Co-convening SOCR8204 (Causal Inference) for Master of Applied Data Analytics students, focusing on experimental, quasi-experimental, and causal machine learning methods in R and Stata.
 * 2018 - 2019: Teaching Associate
   * _University of Melbourne_
   * Tutored MULT30018 (Applied Research Methods), teaching quantitative research methods and SPSS to undergraduate social science students.

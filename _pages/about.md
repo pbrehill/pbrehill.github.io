@@ -5,6 +5,8 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+include:
+  - files
 ---
 
 I am a PhD candidate at POLIS: The Centre for Social Research at the Australian National University. My thesis is currently being examined.
@@ -13,3 +15,4 @@ The focus of my research is on building tools and methodology to integrate causa
 
 Outside of my doctoral work, I work at the Australian Centre for Evaluation in the Australian Treasury and the RMIT Department of Economics, Finance, and Marketing. In both these roles I work on social policy research using quasi-experimental or experimental designs, often with large, linked, administrative datasets. Prior to this, my background was as a data scientist / quantitative researcher working for government and not-for-profits organisations.
 
+My recent paper in the International Statistical Review called [How Do Applied Researchers Use the Causal Forest? A Methodological Review](https://onlinelibrary.wiley.com/doi/full/10.1111/insr.12610) includes a [web appendix detailing the 133 papers identified](files/causal_forest_papers.csv). 

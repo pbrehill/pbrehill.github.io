@@ -1,0 +1,259 @@
+Authors,Title,Year,DOI,ID method,Package,Num_trees,Communication of HTEs,Points of interest,Num_vars,Category
+Deines J.M. et al.,Recent cover crop adoption is associated with small maize and soybean yield losses in the United States,2023,10.1111/gcb.16489,Observational with local centering,grf,2000,"Graph ITEs in a histogram
+Graph along quantiles
+PCA on most important variables.","Geo-spatial mapping of effects, splines for variable selection",,Environmental sciences & Agriculture
+Zhu M.,The Effect of Political Participation of Chinese Citizens on Government Satisfaction: Based on Modified Causal Forest,2023,10.1016/j.procs.2023.08.086,Observational,MCF,,Graph across key variables,,13,Political science
+Xue Q. et al.,Local green finance policies and corporate ESG performance,2023,10.1111/irfi.12417,DiD,,2000,,Main effects parallel trends does not imply parallel trends for all CATEs,,Economics
+Venkatasubramaniam A. et al.,Comparison of causal forest and regression-based approaches to evaluate treatment effect heterogeneity: an application for type 2 diabetes precision medicine,2023,10.1186/s12911-023-02207-2,Observational,grf,5000,"Graph ITEs in a histogram
+Graph predicted vs observed effects in future",Testing effects with prediction against future data,,Health & Medicine
+Cui Y.; Davis A.M.,Tax-Induced Inequalities in the Sharing Economy,2022,10.1287/mnsc.2021.4277,"DiD, calculate changes",,10000,Graph along quantiles,,118,Economics
+Brock J.M.; De Haas R.,Discriminatory Lending: Evidence from Bankers in the Lab,2023,10.1257/app.20210180,Experimental (randomise application gender),grf,20000,"Variable importance
+Graph across key variables",,,Economics
+Mao J. et al.,Sustainable development through green innovation and resource allocation in cities: Evidence from machine learning,2023,10.1002/sd.2516,Observational,grf,2000,Graph along quantiles,They average ITEs to get the ATE. This is not doubly robust estimation.,14,Urban studies
+Wang G.,The Effect of Medicaid Expansion on Wait Time in the Emergency Department,2022,10.1287/mnsc.2021.4239,DiD,,5000,"Graph ITEs in a histogram
+BLP",,,Health & Medicine
+Murakami K. et al.,HETEROGENEOUS TREATMENT EFFECTS OF NUDGE AND REBATE: CAUSAL MACHINE LEARNING IN A FIELD EXPERIMENT ON ELECTRICITY CONSERVATION,2022,10.1111/iere.12589,Experimental,grf,,"Graph ITEs in a histogram
+Variable importance
+Slope test
+Derive policy",,93,Economics
+Edward J.A. et al.,Heterogeneous treatment effects of intensive glycemic control on major adverse cardiovascular events in the ACCORD and VADT trials: a machine-learning analysis,2022,10.1186/s12933-022-01496-7,Experimental,grf,5000,Single tree,,,Health & Medicine
+Meath T.H.A. et al.,Hospital Characteristics Associated with Heterogeneity in Institutional Postacute Care Spending Reductions under the Comprehensive Care for Joint Replacement Model,2022,10.1001/jamahealthforum.2022.1657,Observational,grf,,,"Unclear if t-testing of above and below median CATEs, I suspect it's statistically invalid.",,Health & Medicine
+Seitz K.P. et al.,Individualized Treatment Effects of Bougie versus Stylet for Tracheal Intubation in Critical Illness,2023,10.1164/rccm.202209-1799OC,Experimental,"grf, tools4uplift","2000 each model, 10,000 all up","Qini curve
+Partial dependence plots
+Quantiles of ITEs",Interesting use of Qini curve and partial dependence plots.,,Health & Medicine
+Boutilier J.J. et al.,Can digital adherence technologies reduce inequity in tuberculosis treatment success? Evidence from a randomised controlled trial,2022,10.1136/bmjgh-2022-010512,Experimental,grf,5000,"Graph ITEs in a histogram
+Graph probability of negative outcome",,,Health & Medicine
+Kreif N. et al.,Estimating heterogeneous policy impacts using causal machine learning: a case study of health insurance reform in Indonesia,2022,10.1007/s10742-021-00259-3,Observational,grf,3000,"Graph ITEs in a histogram
+Graph across key variables
+Variable importance",,,Health & Medicine
+Wang L. et al.,Befriended to polarise? The impact of friend identity on review polarisation—A quasi-experiment,2023,10.1111/isj.12425,DiD,,10000,Graph along quantiles,"This is an unusual approach, they use propensity scores and difference-in-differences for identification.",17,Political science
+Zhan R. et al.,Targeting the Efficacy of Intensive Blood Pressure Treatment in Hypertensive Patients ― An Exploratory Analysis of SPRINT ―,2023,10.1253/circj.CJ-23-0037,RCT,,500,,,23,Health & Medicine
+Hodler R. et al.,Institutions and the resource curse: New insights from causal machine learning,2023,10.1371/journal.pone.0284968,Observational,MCF,,"Graph across key variables
+Variable importance",,47,Economics
+Andor M.A. et al.,Information campaigns for residential energy conservation,2022,10.1016/j.euroecorev.2022.104094,RCT,,4000,"Quantiles of ITEs
+Graph along quantiles",,,Economics
+Goligher E.C. et al.,Heterogeneous Treatment Effects of Therapeutic-Dose Heparin in Patients Hospitalized for COVID-19,2023,10.1001/jama.2023.3651,RCT,grf,,"SHAP
+Graph across quantiles",Use of SHAP,,Health & Medicine
+Zhang Z. et al.,Inferring heterogeneous treatment effects of work zones on crashes,2022,10.1016/j.aap.2022.106811,Observational (fixed effects),grf,3000,"Variable importance
+Graph across key variables
+BLP",,16,Other
+Hu Z. et al.,Heterogeneity in the Effect of Environmental Protection Expenditure in China: Causal Inference from Machine Learning,2023,10.1080/1540496X.2022.2113331,Observational,grf,2000,Graph along quantiles,,12,Economics
+Brooks J.M. et al.,Assessing the ability of an instrumental variable causal forest algorithm to personalize treatment evidence using observational data: the case of early surgery for shoulder fracture,2022,10.1186/s12874-022-01663-0,IV,grf,5000,"Single tree
+Estimate across quantiles",Only instrumental forest use.,,Health & Medicine
+Allen J. et al.,Assessing incentives to increase digital payment acceptance and usage: A machine learning approach,2022,10.1371/journal.pone.0276203,Natural experiment? Seems to just be observational by country.,grf,,Graph across key variables,,,Economics
+Verstraete K. et al.,Estimating individual treatment effects on COPD exacerbations by causal machine learning on randomised controlled trials,2023,10.1136/thorax-2022-219382,Experimental,grf,,"Rank ITEs
+Graph along quantiles,
+Q-Score metric
+Variable importance
+SHAP",They use standard hyperparameter tuning methods instead of relying of using the tuning forest. Unclear why.,,Health & Medicine
+Miao W. et al.,The effects of surge pricing on driver behavior in the ride-sharing market: Evidence from a quasi-experiment,2023,10.1002/joom.1223,DiD,,,"Graph across key variables
+K-means clustering",Uses difference-in-differences but does not test parallel trends outside of main effect.,354,Economics
+Sadique Z. et al.,A Machine-Learning Approach for Estimating Subgroup- and Individual-Level Treatment Effects: An Illustration Using the 65 Trial,2022,10.1177/0272989X221100717,Experimental,grf,5000,"Graph predictions on variables
+Single tree
+Rank ITEs
+Graph across key variables",Fitting a linear model on CATE estimates is not best-practice.,,Health & Medicine
+Kianmehr H. et al.,A machine learning approach identifies modulators of heart failure hospitalization prevention among patients with type 2 diabetes: A revisit to the ACCORD trial,2022,10.1016/j.jdiacomp.2022.108287,Experimental,grf (causalTree),4000,Single tree,"This is an unusual approach, they use a test-train split that seems unneccessary.",,Health & Medicine
+Kluger D.M. et al.,Combining randomized field experiments with observational satellite data to assess the benefits of crop rotations on yields,2022,10.1088/1748-9326/ac6083,Observational / data fusion with experimental.,grf,,"Graph across key variables
+Graph across geography",,13,Environmental sciences & Agriculture
+Hao X. et al.,Abnormal weather and loan bias: Evidence from China's FinTech credit market,2023,10.1016/j.eiar.2023.107164,Observational,,,"Graph ITEs in a histogram
+Graph across key variables",,15,Economics
+Mulungu K. et al.,One size does not fit all: Heterogeneous economic impact of integrated pest management practices for mango fruit flies in Kenya—a machine learning approach,2023,10.1111/1477-9552.12550,"Experimental, Ancova",grf,10000,Rank ITEs,,,Environmental sciences & Agriculture
+Habel J. et al.,Effective Implementation of Predictive Sales Analytics,2023,10.1177/00222437221151039,Experimental (though some identification concerns making it arguably observational),,,"Regression explaining ITE
+Policy targeting analysis",Fitting a linear model on CATE estimates is not best-practice.,,Business
+Aanegola R. et al.,Longitudinal analysis of the determinants of life expectancy and healthy life expectancy: A causal approach,2022,10.1016/j.health.2022.100028,Observational,,,,,,Health & Medicine
+Inoue K. et al.,Heterogeneity in the Association between the Presence of Coronary Artery Calcium and Cardiovascular Events: A Machine-Learning Approach in the MESA Study,2023,10.1161/CIRCULATIONAHA.122.062626,Observational,,,Graph across key variables,I think propensity score matching use here is unneccessary and is a bad idea when using resampling. The tuning with cross-validation also seems unneccessary if using grf.,,Health & Medicine
+Elamin O.A.,Overeducation wage penalty for university graduates: evidence from the MENA region using machine learning techniques,2023,10.1080/17938120.2023.2167482,Observational,grf,4000,"BLP
+Graph across key variables",,16,Economics
+Hintermann B. et al.,The impact of COVID-19 on mobility choices in Switzerland,2023,10.1016/j.tra.2023.103582,Observational,,,Graph across key variables,The use of the causal forest for variable selection in a fixed effects model is strange and kind of interesting.,,Health & Medicine
+Xu Y. et al.,Principled estimation and evaluation of treatment effect heterogeneity: A case study application to dabigatran for patients with atrial fibrillation,2023,10.1016/j.jbi.2023.104420,Experimental,,,"Rank ITEs
+Partial dependence plot",,,Health & Medicine
+Huber M. et al.,Business analytics meets artificial intelligence: Assessing the demand effects of discounts on Swiss train tickets,2022,10.1016/j.trb.2022.06.006,Observational,grf,1000,"Graph ITEs in a histogram
+BLP
+Variable importance",,,Business
+Lei H. et al.,Price elasticity of CO2 emissions in China: A machine learning approach,2023,10.1016/j.spc.2023.01.005,Observational,,1000,"Variable importance
+GAM model based on important variables",,20,Economics
+Langenberger B. et al.,Exploring treatment effect heterogeneity of a PROMs alert intervention in knee and hip arthroplasty patients: A causal forest application,2023,10.1016/j.compbiomed.2023.107118,RCT,grf,,"Graph ITEs in a histogram
+Graph across key variables",,27,Health & Medicine
+Ajzenman N. et al.,A behavioral intervention to increase preschool attendance in Uruguay,2022,10.1016/j.jdeveco.2022.102984,Experimental,grf,,Quantiles of ITEs,,,Education
+Osawa I. et al.,Targeted therapy using polymyxin B hemadsorption in patients with sepsis: a post-hoc analysis of the JSEPTIC-DIC study and the EUPHRATES trial,2023,10.1186/s13054-023-04533-3,Experimental,grf,5000,"Rank ITEs
+Graph along quantiles
+Policy targeting",This is very interesting. They use a held out experimental sample for testing the effect of their learnt policy.,,Health & Medicine
+Zhang M.; Luo L.,Can Consumer-Posted Photos Serve as a Leading Indicator of Restaurant Survival? Evidence from Yelp,2023,10.1287/mnsc.2022.4359,Observational,grf,2000,SHAP,Interesting use of image data.,95,Business
+Zhu M.,Living with offspring surely brings happiness to the elderly? - the heterogeneity in the effect of living arrangements on the life satisfaction of the Chinese elderly,2022,10.1016/j.procs.2022.11.186,Observational,grf,2000,"Graph ITEs in a histogram
+Graph across key variables
+Variable importance
+Correlate ITE and variables","The use of ANOVA and correlation here is unusual, unclear why BLP would not be better.",20,Other social science
+Leite W.L. et al.,Heterogeneity of Treatment Effects of a Video Recommendation System for Algebra,2022,10.1145/3491140.3528275,Experimental,grf,10000,"Regression explaining ITE
+Graph across key variables",Fitting a linear model on CATE estimates is not best-practice.,,Education
+Zhou H.-M. et al.,Targeting efficacy of spironolactone in patients with heart failure with preserved ejection fraction: the TOPCAT study,2023,10.1002/ehf2.14068,Experimental,,500,Single tree,They use tree distance to find a representatative tree which is interesting.,37,Health & Medicine
+Hodula M. et al.,Cooling the mortgage loan market: The effect of borrower-based limits on new mortgage lending,2023,10.1016/j.jimonfin.2023.102808,Quasiexperimental,grf,,"Quantiles of ITEs
+Variable importance",,,Economics
+Cockx B. et al.,Priority to unemployed immigrants? A causal machine learning evaluation of training in Belgium,2023,10.1016/j.labeco.2022.102306,Observational,mcf,,"Graph ITEs in a histogram
+Rank ITEs
+K-means++ clustering
+Derive policy",This is a really good design which does new and interesting things with the causal forest.,54,Economics
+Inoue K. et al.,Machine-learning-based high-benefit approach versus conventional high-risk approach in blood pressure management,2023,10.1093/ije/dyad037,Experimental,grf,2000,Derive policy,I don't think there is any need to bootstrap here.,,Health & Medicine
+Zhou Z. et al.,Heterogeneous treatment effects of coronary artery bypass grafting in ischemic cardiomyopathy: A machine learning causal forest analysis,2023,10.1016/j.jtcvs.2023.09.021,Experimental,grf,500,Single tree,,,Health & Medicine
+Lanz L. et al.,Employees Adhere More to Unethical Instructions from Human Than AI Supervisors: Complementing Experimental Evidence with Machine Learning,2023,10.1007/s10551-023-05393-1,Experimental,grf,2000,"Graph ITEs in a histogram
+Variable importance",,11,Other social science
+Esterzon E. et al.,Enhancing Donor Agency to Improve Charitable Giving: Strategies and Heterogeneity,2023,10.1177/00222429221148969,Experimental,grf (implementing custom functions),4000,"BLP
+Graph along quantiles
+Partial dependency plot
+Derive policy","This is an unusual design but it seems like the things they do (test-train split, averaging the results of 1000 forests) is redundant.",,Economics
+DeFries R. et al.,Improved household living standards can restore dry tropical forests,2022,10.1111/btp.12978,Observational,grf,10000,"Graph ITEs in a histogram
+Variable importance
+Graph across key variables",,17,Environmental sciences & Agriculture
+Pattabhiramaiah A. et al.,Spillovers from Online Engagement: How a Newspaper Subscriber’s Activation of Digital Paywall Access Affects Her Retention and Subscription Revenue,2022,10.1287/mnsc.2021.4092,Observational,grf,4000,,,,Business
+Chen H. et al.,Heterogeneous effects of health insurance on rural children’s health in China: A causal machine learning approach,2021,10.3390/ijerph18189616,Observational,grf,4000,"Graph ITEs in a histogram
+Variable importance",,,Health & Medicine
+Han X. et al.,Identifying High-Risk Subphenotypes and Associated Harms From Delayed Antibiotic Orders and Delivery,2021,10.1097/CCM.0000000000005054,Observational,,,"Variable importance
+Graph across key variables",,,Health & Medicine
+Wiemken T.L. et al.,Effectiveness of oseltamivir treatment on clinical failure in hospitalized patients with lower respiratory tract infection,2021,10.1186/s12879-021-06812-2,Experimental,grf,50000,Graph across key variables,,85,Health & Medicine
+Fukai T. et al.,Describing the impacts of COVID-19 on the labor market in Japan until June 2020,2021,10.1007/s42973-021-00081-z,Observational,,,"Rank ITEs
+Graph across key variables",,,Economics
+Yin W. et al.,The effects of state coercion on voting outcome in protest movements: a causal forest approach,2021,10.1017/psrm.2021.70,Observational,grf,5000,"Graph across geography
+Graph ITEs in a histogram
+Plot across variable holding others fixed at median",,,Political science
+Li Z.-F. et al.,The impact of COVID-19 on industry-related characteristics and risk contagion,2021,10.1016/j.frl.2021.101931,Observational,,,Graph across key variables,,,Economics
+Carbo-Valverde S. et al.,A machine learning approach to the digitalization of bank customers: Evidence from random and causal forests,2020,10.1371/journal.pone.0240362,Observational,grf,,Graph across key variables,,,Business
+Luo X. et al.,When and How to Leverage E-commerce Cart Targeting: The relative and moderated effects of scarcity and price incentives with a two-stage field experiment and causal forest optimization,2019,10.1287/isre.2019.0859,Experimental,,,Single tree,,,Business
+Raghavan S. et al.,Generalizability of heterogeneous treatment effects based on causal forests applied to two randomized clinical trials of intensive glycemic control,2022,10.1016/j.annepidem.2021.07.003,Experimental,grf / causal tree,5000,"Variable importance
+Single tree",,,Health & Medicine
+Farbmacher H. et al.,Heterogeneous effects of poverty on attention,2021,10.1016/j.labeco.2021.102028,Experimental,grf,10000,"Variable importance
+Graph across key variables",,37,Economics
+Hoffman I.; Mast E.,Heterogeneity in the effect of federal spending on local crime: Evidence from causal forests,2019,10.1016/j.regsciurbeco.2019.103463,Quasi-experimental (natural experiment),grf,5000,"Single tree
+Graph across key variables",,3,Criminology
+Marafino B.J. et al.,Predicting preventable hospital readmissions with causal machine learning,2020,10.1111/1475-6773.13586,Observational,grf,8000,Graph across key variables,,,Health & Medicine
+Affeldt P. et al.,25 years of European merger control,2021,10.1016/j.ijindorg.2021.102720,Observational,grf,12000,Graph across key variables,,,Economics
+Bittencourt W.R.; Albuquerque P.H.M.,Evaluating company bankruptcies using causal forests,2020,10.1590/1808-057X202010360,Observational,causalTree,,Variable importance,"They average together the tree predictions, this is the original causal forest approach. This seems unnecessary after the release of grf.",,Economics
+Kristjanpoller W. et al.,A causal framework to determine the effectiveness of dynamic quarantine policy to mitigate COVID-19,2021,10.1016/j.asoc.2021.107241,Observational,grf (and others,,SHAP,,18,Health & Medicine
+Guo T. et al.,The Effect of Information Disclosure on Industry Payments to Physicians,2021,10.1177/0022243720972106,DiD,,,"Regression explaining ITE
+Graph ITEs in a histogram",Interesting proposal of the first differences causal forest. The testing of parallel trends for just the ATT does not mean it holds across all CATEs. Also the use of a linear model fit on CATEs is a bad idea.,,Health & Medicine
+Athey S.; Wager S.,Estimating Treatment Effects with Causal Forests: An Application,2019,10.1353/obs.2019.0001,Observational / dirty experimental,grf,2000,"Graph ITEs in a histogram
+Graph across key variables",,10,Education
+Xu Y. et al.,Using machine learning to predict retrofit effects for a commercial building portfolio,2021,10.3390/en14144334,Observational,grf,,"Graph across key variables
+Derive policy
+BLP",Interesting use of propensity score trimming here. This might be useful in other applications.,,Other social science
+Elek P.; Bíró A.,Regional differences in diabetes across Europe – regression and causal forest analyses,2021,10.1016/j.ehb.2020.100948,Observational,grf,64000,"BLP
+Graph across key variables",,20,Health & Medicine
+Chen Y. et al.,Improving Cancer Outreach Effectiveness Through Targeting and Economic Assessments: Insights from a Randomized Field Experiment,2020,10.1177/0022242920913025,Experimental.,,4000,"Regression explaining ITE
+Graph ITEs in a histogram
+Derive policy","Fitting a linear model on CATE estimates is not best-practice. However, the lagged outcomes as covariates is an interesting idea and does not happen much in other papers here.",12,Health & Medicine
+Deines J.M. et al.,Satellites reveal a small positive yield effect from conservation tillage across the US Corn Belt,2019,10.1088/1748-9326/ab503b,Observational,grf,2000,"Graph across geography
+Graph along quantiles",They use different variables across nuisance and heterogeneity models which is interesting.,24,Environmental sciences & Agriculture
+Baum A. et al.,Targeting weight loss interventions to reduce cardiovascular complications of type 2 diabetes: a machine learning-based post-hoc analysis of heterogeneous treatment effects in the Look AHEAD trial,2017,10.1016/S2213-8587(17)30176-6,Experimental,,1000,Single tree,This idea of representative leaves is interesting.,,Health & Medicine
+"Zhu Y., Rao H.",Does low carbon city pilot promote urban carbon unlocking?—— A heterogeneity analysis based on machine learning,2024,10.1016/j.cities.2024.104815,Observational,grf,2000,"Graph ITEs in a histogram
+Variable importance",,9,Urban studies
+Kawata K. et al.,Narrative premiums in policy persuasion,2024,10.1111/pops.12928,Experimental,,,Graph along quantiles,,34,Political science
+Zhu H. et al.,Associations between employment and mental health of older workers with disparate conditions: Evidence from China,2024,10.1016/j.gerinurse.2024.02.023,Observational,,,"Graph across key variables
+BLP",,20,Health & Medicine
+Li S. et al.,Uncovering the heterogeneous effects of depression on suicide risk conditioned by linguistic features: A double machine learning approach,2024,10.1016/j.chb.2023.108080,Observational,EconML,,"SHAP
+Single tree",This is interesting due to the use of distilled trees and the use of linguistic features as variables.,43,Health & Medicine
+Berkes J. et al.,Improving preschool provision and encouraging-demand: Evidence from a large-scale construction program,2024,10.1016/j.jpubeco.2023.105050,Experimental,,,Graph along quantiles,,,Education
+Behrman J.R. et al.,"TUTORING EFFICACY, HOUSEHOLD SUBSTITUTION, AND STUDENT ACHIEVEMENT: EXPERIMENTAL EVIDENCE FROM AN AFTER-SCHOOL TUTORING PROGRAM IN RURAL CHINA",2024,10.1111/iere.12668,Experimental,,,"Graph along quantiles
+Summary stats within quantile",,,Education
+"Weber B., Cappellari P.",Assessing the Impact of Ferry Transit on Urban Crime,2023,10.1177/10780874221143047,Observational,,,,This seems to just be fitting ATEs for different treatments (diffferent radii).,3,Criminology
+Coleman E.A. et al.,How Communities Benefit from Collaborative Governance: Experimental Evidence in Ugandan Oil and Gas,2023,10.1093/jopart/muac050,Observational,grf,10000,"Rank ITEs
+Graph across key variables
+Variable importance
+Derive policy",This is interesting with a good application of policy targeting.,,Economics
+Hou J. et al.,How Boundary-spanning Paper Sparkles Citation: From Citation Count to Citation Network,2023,10.1016/j.joi.2023.101434,Observational,,,,They seem to just be fitting CATEs for prespecified variables. Unclear why causal forest is needed.,,Other social science
+"Mesplé-Somps S., Nilsson B.","Role models, aspirations and desire to migrate",2023,10.1016/j.jebo.2023.06.013,Experimental,grf,,"Rank ITEs
+Summary stats within quantile",They use a locally linear forest for propensity score nuisance model.,,Economics
+Spechler P.A. et al.,The beneficial effect of sleep on behavioral health problems in youth is disrupted by prenatal cannabis exposure: A causal random forest analysis of Adolescent Brain Cognitive Development data,2023,10.1111/cdev.13899,Observational,grf,2000,Graph across key variables,,,Health & Medicine
+Haas V.I. et al.,Can wedge strategies by mainstream parties cross-cut the anti-immigration far right vote?,2023,10.1016/j.electstud.2023.102617,Experimental,,,,,,Political science
+Shah A.M. et al.,Identifying heterogeneity using recursive partitioning: evidence from SMS nudges encouraging voluntary retirement savings in Mexico,2023,10.1093/pnasnexus/pgad058,Experimental,grf,,Graph across key variables,,4,Economics
+Elamin O.A.,The causal effect of informal job search on wage and job satisfaction: evidence from Egypt and Jordan using random forest method,2023,10.1108/IJSE-05-2022-0318,Observational,grf,,Graph across key variables,,,Economics
+"Choi Y., Gibson J.R.",The effect of COVID-19 on self-reported safety incidents in aviation: An examination of the heterogeneous effects using causal machine learning,2023,10.1016/j.jsr.2022.12.002,Observational,grf,,"Graph across key variables
+Variable importance",,,Other social science
+Evans D.K. et al.,The educational impacts of cash transfers in Tanzania,2023,10.1016/j.econedurev.2022.102332,Experimental,grf,100000,Graph ITEs in a histogram,,22,Education
+"Amann E., Rzepka S.",The effect of goal-setting prompts in a blended learning environment—evidence from a field experiment,2023,10.1016/j.econedurev.2022.102331,Observational,grf,9000,"Single tree
+Graph across key variables
+Variable importance
+Regression explaining ITE",Fitting a linear model on CATE estimates is not best-practice.,43,Education
+Labro E. et al.,Predictive analytics and centralization of authority,2023,10.1016/j.jacceco.2022.101526,Observational,grf,,,,232,Business
+"Singhal P., Hobbs A.",The Distribution of Energy Efficiency and Regional Inequality,2023,10.5547/01956574.44.4.psin,Observational,grf,,"Graph ITEs in a histogram
+Graph across key variables",,,Economics
+Lei Y. et al.,The impact of open government data on entrepreneurial activity: a quasi-experiment with machine learning,2023,10.1080/17516234.2023.2294620,Observational,,,"Graph across key variables
+Variable importance",This appears to do a pooled analysis,14,Economics
+Chowdhury R.A. et al.,"Grow the pie, or have it? Using machine learning to impact heterogeneity in the Ultra-poor graduation model",2023,10.1080/19439342.2023.2276928,Experimental,,,"Graph along quantiles
+Variable importance
+Graph across key variables",,,Education
+Nie A. et al.,Understanding the Impact of Reinforcement Learning Personalization on Subgroups of Students in Math Tutoring,2023,10.1007/978-3-031-36336-8_106,Experimental,,,"Single tree
+Estimate across quantiles",,,Education
+Cookson J.A. et al.,Shale shocked: Cash windfalls and household debt repayment,2022,10.1016/j.jfineco.2022.09.008,Observational,,,,,,Economics
+Stetter C. et al.,Using Machine Learning to Identify Heterogeneous Impacts of Agri-Environment Schemes in the EU: A Case Study,2022,10.1093/erae/jbab057,Observational,,100000,"Graph across geography
+Graph ITEs in a histogram
+Graph across key variables
+SHAP values",,130,Environmental sciences & Agriculture
+Berry J. et al.,When student incentives do not work: Evidence from a field experiment in Malawi,2022,10.1016/j.jdeveco.2022.102893,Experimental,,,,,,Education
+Britto D.G.C. et al.,The Effect of Job Loss and Unemployment Insurance on Crime in Brazil,2022,10.3982/ECTA18984,Observational,,,"Graph across key variables
+Graph along quantiles",,,Criminology
+Master B.K. et al.,Developing School Leaders: Findings From a Randomized Control Trial Study of the Executive Development Program and Paired Coaching,2022,10.3102/01623737211047256,Experimental,,,Variable importance,The mean values for variables of most impacted is interesting.,,Education
+Alpino M. et al.,Effects of dialogue meetings on sickness absence—Evidence from a large field experiment,2022,10.1016/j.jhealeco.2022.102615,Experimental,,25000,Graph ITEs in a histogram,,15,Business
+Giannarakis G. et al.,Towards assessing agricultural land suitability with causal machine learning,2022,10.1109/CVPRW56347.2022.00150,Observational,,1000,"Graph across geography
+Graph ITEs in a histogram
+Single tree",,,Environmental sciences & Agriculture
+Burgess S. et al.,Understanding the response to financial and non-financial incentives in education: Field experimental evidence using high-stakes assessments,2021,10.1016/j.econedurev.2021.102195,Experimental,,,,,12,Education
+Olckers M.,On track for retirement?,2021,10.1016/j.jebo.2021.07.028,Experimental,,,,,,Education
+Klüver H. et al.,Incentives can spur COVID-19 vaccination uptake,2021,10.1073/pnas.2109543118,Experimental,grf,,Graph across key variables,,17,Other social science
+Humlum M.K. et al.,Vaccine Hesitancy and Differential Susceptibility to Media Coverage: A Critical Documentary Led to Substantial Reductions in Human Papillomavirus Vaccine Uptake in Denmark,2021,10.1177/0272989X211003589,Observational,,,,,,Health & Medicine
+De Neve J.-E. et al.,How to improve tax compliance? Evidence from population-wide experiments in Belgium,2021,10.1086/713096,Experimental,,,"Variable importance
+Graph along quantiles",,,Economics
+Wuttke A.,The pleasure principle,2021,10.1017/pls.2020.18,Experimental,grf,,"Graph across key variables
+Graph along quantiles",,,Other social science
+"Bauer P.C., Clemm von Hohenberg B.",Believing and Sharing Information by Fake Sources: An Experiment,2021,10.1080/10584609.2020.1840462,Experimental,,,"Graph across key variables
+BLP",,8,Political science
+"Haaland I., Roth C.",Labor market concerns and support for immigration,2020,10.1016/j.jpubeco.2020.104256,Experimental,grf,,Variable importance,Another use of lagged outcomes as covariates which is interesting.,,Political science
+"Davis J.M.V., Heller S.B.",Rethinking the benefits of youth employment programs: The heterogeneous effects of summer jobs,2020,10.1162/rest_a_00850,Experimental,Original causal forest,100000,"Graph along quantiles
+Variable importance
+Summary stats within quantile
+Derive policy",,,Economics
+Nkemdirim Okere A. et al.,A quantitative analysis of the effect of continuity of care on 30-day readmission and in-hospital mortality among patients with acute ischemic stroke,2020,10.1016/j.jstrokecerebrovasdis.2020.105053,Observational,,,Graph across key variables,,,Health & Medicine
+"Rana P., Miller D.C.",Machine learning to analyze the social-ecological impacts of natural resource policy: Insights from community forest management in the Indian Himalaya,2019,10.1088/1748-9326/aafa8f,Observational,causalTree,,Single tree,This is a strange paper because it predates grf. It uses a matching design.,,Environmental sciences & Agriculture
+"Mcclellan, CB",Health care Utilization and Expenditures in Health Professional Shortage Areas,2024,10.1177/10775587241235705,Observational,grf,4000,"Variable importance
+Graph across key variables",,,Health & Medicine
+Bundorf et al.,How Do Consumers Interact with Digital Expert Advice? Experimental Evidence from Health Insurance,2024,10.1287/mnsc.2020.02453,Experimental,,,"Graph along quantiles
+Summary stats within quantile
+BLP
+Regression explaining ITE",,10,Business
+Yu et al.,Smart Cities and Greener Futures: Evidence from a Quasi-Natural Experiment in China's Smart City Construction,2024,10.3390/su16020929,Observational,,,"Graph ITEs in a histogram
+Graph across key variables
+Kruskai-Wallis test of differences across regions
+T-test CATE differences",,7,Urban studies
+Jakobsen et al.,Machine learning identifies risk factors associated with long-term sick leave following COVID-19 in Danish population,2023,10.1038/s43856-023-00423-5,Observational,grf,2000,"Graph ITEs in a histogram
+Graph across key variables
+Graph along quantiles
+RATE analysis
+Derive policy",,15,Health & Medicine
+Sun et al.,The association between Urban and Rural Resident Basic Medical Insurance and instrumental activity of daily living disability among middle-aged and older adults in China,2023,10.1186/s13690-023-01167-3,Observational,,2000,,,,Health & Medicine
+Maslahati et al.,"Oxytocin vs. placebo effects on intrusive memory consolidation using a trauma film paradigm: a randomized, controlled experimental study in healthy women",2023,10.1038/s41398-023-02339-z,Experimental,,,"Variable importance
+BLP",,,Health & Medicine
+Cohen et al.,Managing Airfares Under Competition: Insights from a Field Experiment,2023,10.1287/mnsc.2022.4656,Experimental,,,Graph across key variables,,7,Business
+Serra-Garcia et al.,Incentives and Defaults Can Increase COVID-19 Vaccine Intentions and Test Demand,2023,10.1287/mnsc.2022.4405,Experimental,,500,"Variable importance
+BLP
+Graph across key variables
+Graph along quantiles
+Wald test",,7,Health & Medicine
+Garrison-Desany H.M. et al.,Post-traumatic stress and future substance use outcomes: leveraging antecedent factors to stratify risk,2024,10.3389/fpsyt.2024.1249382,Observational,grf,2000,"Variable importance
+Graph along quantiles",,,Health & Medicine
+Huang X. et al.,Green Technology Innovation and Enterprise Performance: An Analysis Based on Causal Machine Learning Models,2024,10.3390/su16062309,Observational,,,"Graph ITEs in a histogram
+Variable importance",,,Business
+Turjeman D.; Feinberg F.M.,When the Data Are Out: Measuring Behavioral Changes Following a Data Breach,2024,10.1287/mksc.2019.0208,Observational (temporal matching),grf,,"Graph ITEs in a histogram
+Regression explaining ITE",This temporal causal forest design is very interesting.,,Business
+Matsuyama Y. et al.,Heterogeneous Association of Tooth Loss with Functional Limitations,2024,10.1177/00220345241226957,Observational,grf,,"Graph ITEs in a histogram
+Graph across key variables
+Graph along quantiles",,18,Health & Medicine
+Kan-Tor Y. et al.,Evaluating the heterogeneous effect of extended culture to blastocyst transfer on the implantation outcome via causal inference in fresh ICSI cycles,2024,10.1007/s10815-024-03023-x,Observational,,,"Graph ITEs in a histogram
+Graph across key variables",,,Health & Medicine
+Tian Y. et al.,Green Innovation Effects of Ecological Civilization Pilot Policies,2024,10.15244/pjoes/174789,Observational,,2000,"Graph ITEs in a histogram
+Graph across key variables
+Variable importance",,6,Economics
+Hattab Z. et al.,Heterogeneity within the Oregon Health Insurance Experiment: An application of causal forests,2024,10.1371/journal.pone.0297205,Experimental,,20000,"Graph ITEs in a histogram
+Graph across key variables",,19,Economics
+Esposti R.,Non-monetary motivations of the EU agri-environmental policy adoption. A causal forest approach,2024,10.1016/j.jenvman.2023.119992,Observational,grf . MLRtime,2000,Graph across key variables,,,Environmental sciences & Agriculture
+Dylong P.; Uebelmesser S.,Biased beliefs about immigration and economic concerns: Evidence from representative experiments,2024,10.1016/j.jebo.2023.11.017,Experimental,grf,,"Variable importance
+Graph across key variables",There is an unusual approach to variable importance here (using a variance decomposition). They also use a multi-arm causal forest.,,Political science
+Xie L. et al.,Can Building Subway Systems Improve Air Quality? New Evidence from Multiple Cities and Machine Learning,2024,10.1007/s10640-024-00852-3,Observational,,300,"Graph ITEs in a histogram
+Graph across key variables
+Variable importance",,,Urban studies

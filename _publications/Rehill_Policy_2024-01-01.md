@@ -11,3 +11,4 @@ paperurl: 'https://doi.org/10.1007/s10614-024-10722-1'
 ---
 This explores the use of interpretable tree models with multi-objective Bayesian optimisation to explore policy eligibility trade-offs.
 
+[Download paper here](https://doi.org/10.1007/s10614-024-10722-1)

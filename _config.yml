@@ -12,7 +12,7 @@ title                    : "Patrick Rehill"
 title_separator          : "-"
 name                     : &name "Patrick Rehill"
 description              : &description "Academic homepage of Patrick Rehill"
-url                      : https://pbrehill.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://patrickrehill.com # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "pbrehill/pbrehill.github.io"
 
@@ -23,8 +23,8 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Patrick Rehill"
-  pronouns         : # example: "she/her"  
-  bio              : "I am a researcher working on causal machine learning methods and policy evaluation, currently based at the Australian National University and Australian Treasury."
+  pronouns         : "he/him"
+  bio              : "I am a researcher working on causal machine learning methods and policy evaluation, currently based at the RMIT University and Australian Treasury."
   location         : "Melbourne, Australia"
   employer         : "Australian National University"
   uri              : # URL

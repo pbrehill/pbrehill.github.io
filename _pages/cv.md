@@ -11,15 +11,15 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Social Sciences, Australian National University, 2025 (expected)
+* Ph.D (quantitative social science), POLIS, Australian National University, 2025 
 * Master of Public Policy and Management, University of Melbourne, 2018
 * B.A. (Hons) in Politics and International Studies, University of Melbourne, 2015
 
 Research experience
 ======
-* 2025 - Present: Sessional Researcher
+* 2025 - Present: Research Assistant
   * _RMIT_
-  * Conducting research on innovative causal inference methods.
+  * Conducting research on innovative causal inference methods and large, linked administrative data.
 * 2024 - Present: Evaluation Analyst
   * _Australian Treasury_
   * Conducting evaluations of government programs, including the Medicare Levy Surcharge / Private Health Insurance Rebate and the Superannuation Work Test. Analyzing large, linked administrative datasets. Part-time seconded to the Australian Government's AI CoLab.

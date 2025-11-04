@@ -15,6 +15,18 @@ description              : &description "Academic homepage of Patrick Rehill"
 url                      : https://patrickrehill.com # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "pbrehill/pbrehill.github.io"
+plugins:
+  - jekyll-scholar
+
+scholar:
+  style: apa               # or your preferred CSL
+  locale: en
+  source: _bibliography
+  bibliography: papers.bib # put your .bib here
+  bibliography_template: bib_item
+  repository: assets/papers # where PDFs live (optional)
+  replace_strings: true
+  join_strings:    true
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.

@@ -1,0 +1,28 @@
+{%- assign link = nil -%}
+{%- if entry.url and entry.url != "" -%}
+  {%- assign link = entry.url -%}
+{%- elsif entry.doi and entry.doi != "" -%}
+  {%- assign link = "https://doi.org/" | append: entry.doi -%}
+{%- endif -%}
+
+<li class="pub">
+  {%- if link -%}
+    <strong><a href="{{ link }}">{{ entry.title }}</a></strong>
+  {%- else -%}
+    <strong>{{ entry.title }}</strong>
+  {%- endif -%}
+
+  <br />
+  {%- if entry.author -%}{% reference %}{%- endif -%}
+
+  {%- if entry.venue or entry.journal or entry.booktitle or entry.institution -%}
+    {%- assign venue = entry.venue | default: entry.journal | default: entry.booktitle | default: entry.institution -%}
+    {%- if venue %} — {{ venue }}{%- endif -%}
+  {%- endif -%}
+
+  {%- if entry.year %} ({{ entry.year }}){%- endif -%}
+
+  {%- if entry.file %}
+    &nbsp;<a class="pdf" href="{{ '/assets/papers/' | append: entry.file }}">PDF</a>
+  {%- endif -%}
+</li>

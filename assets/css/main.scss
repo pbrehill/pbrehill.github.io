@@ -39,3 +39,17 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Disable theme numbering for the publications list */
+ul.publist,
+ol.publist { list-style: none; counter-reset: none; margin-left: 0; padding-left: 0; }
+
+.publist li.pub {
+  list-style: none;
+  counter-increment: none;
+  margin: 0 0 0.75rem 0;  /* optional spacing */
+}
+
+/* Kill any theme-generated markers/counters */
+.publist li.pub::before,
+.publist li.pub::marker { content: none !important; }

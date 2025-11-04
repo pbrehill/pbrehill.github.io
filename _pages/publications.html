@@ -24,14 +24,14 @@ author_profile: true
   {% assign pair = g | split: ":" %}
   {% assign bibtype = pair[0] | strip %}
   {% assign label   = pair[1] | strip %}
-
   {% assign q = '@' | append: bibtype %}
 
-  {% capture results %}
+  {%- capture results -%}
     {% bibliography --file papers --query {{ q }} --template bib_item %}
-  {% endcapture %}
+  {%- endcapture -%}
+  {% assign results = results | strip %}
 
-  {% if results contains "<li" %}
+  {% if results != "" %}
     <h2 id="{{ bibtype }}">{{ label }}</h2><hr />
     <ul class="publist">
       {{ results }}

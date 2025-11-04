@@ -22,12 +22,13 @@ author_profile: true
 
 {% for g in groups %}
   {% assign pair = g | split: ":" %}
-  {% assign bibtype = pair[0] %}
-  {% assign label = pair[1] %}
+  {% assign bibtype = pair[0] | strip %}
+  {% assign label   = pair[1] | strip %}
+
+  {% assign q = '@' | append: bibtype %}
 
   {% capture results %}
-    {%- comment -%} Use @*[type=...] to avoid parser edge cases {%- endcomment -%}
-    {% bibliography --file papers --query "@*[type={{ bibtype }}]" --template bib_item %}
+    {% bibliography --file papers --query {{ q }} --template bib_item %}
   {% endcapture %}
 
   {% if results contains "<li" %}

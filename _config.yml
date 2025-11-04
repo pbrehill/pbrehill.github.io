@@ -19,8 +19,8 @@ repository               : "pbrehill/pbrehill.github.io"
 scholar:
   style: apa               # or your preferred CSL
   locale: en
-  source: _bibliography
-  bibliography: papers.bib # put your .bib here
+  source: .
+  bibliography: _bibliograhy/papers.bib # put your .bib here
   bibliography_template: bib_item
   repository: assets/papers # where PDFs live (optional)
   replace_strings: true

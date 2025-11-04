@@ -4,10 +4,10 @@
  "papers"
  (lambda ()
    (LaTeX-add-bibitems
-    "biddle2022mental"
+    "biddle2022mental-csrm"
     "noble2023wellbeing"
-    "biddle2022wellbeing"
-    "biddle2022relationship"
+    "biddle2022wellbeing-aug"
+    "biddle2022relationship-aug"
     "fisk2020gender"
     "rehill2025policy"
     "crawford2021guidance"

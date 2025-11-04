@@ -54,3 +54,21 @@ ol.publist { list-style: none; counter-reset: none; margin-left: 0; padding-left
 /* Kill any theme-generated markers/counters */
 .publist li.pub::before,
 .publist li.pub::marker { content: none !important; }
+/* Remove numbering/bullets from jekyll-scholar bibliography lists */
+ol.bibliography,
+ul.bibliography {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  counter-reset: none;
+}
+
+ol.bibliography > li,
+ul.bibliography > li {
+  counter-increment: none;
+}
+
+/* Defeat themes that draw numbers with ::before */
+ol.bibliography > li::before {
+  content: none !important;
+}

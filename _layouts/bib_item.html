@@ -4,6 +4,7 @@
 {%- elsif entry.doi and entry.doi != "" -%}
   {%- assign link = "https://doi.org/" | append: entry.doi -%}
 {%- endif -%}
+<!-- USING bib_item.html -->
 
 <li class="pub">
   {%- if link -%}

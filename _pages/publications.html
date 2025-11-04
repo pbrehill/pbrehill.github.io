@@ -7,7 +7,7 @@ author_profile: true
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on
-    <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
+    <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
   </div>
 {% endif %}
 
@@ -18,19 +18,20 @@ author_profile: true
   One long page, grouped by BibTeX entry type.
 {%- endcomment -%}
 
-{% assign groups = "article:Journal articles, unpublished:Preprints, techreport:Reports, misc:Other" | split: ", " %}
+{% assign groups = "article:Journal articles|unpublished:Preprints|techreport:Reports|misc:Other" | split: "|" %}
 
 {% for g in groups %}
   {% assign pair = g | split: ":" %}
-  {% assign type = pair[0] %}
+  {% assign bibtype = pair[0] %}
   {% assign label = pair[1] %}
 
   {% capture results %}
-    {% bibliography --query "@{{ type }}" --template bib_item %}
+    {%- comment -%} Use @*[type=...] to avoid parser edge cases {%- endcomment -%}
+    {% bibliography --file papers --query "@*[type={{ bibtype }}]" --template bib_item %}
   {% endcapture %}
 
   {% if results contains "<li" %}
-    <h2 id="{{ type }}">{{ label }}</h2><hr />
+    <h2 id="{{ bibtype }}">{{ label }}</h2><hr />
     <ul class="publist">
       {{ results }}
     </ul>

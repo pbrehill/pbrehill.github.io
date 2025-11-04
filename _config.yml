@@ -15,8 +15,6 @@ description              : &description "Academic homepage of Patrick Rehill"
 url                      : https://patrickrehill.com # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "pbrehill/pbrehill.github.io"
-plugins:
-  - jekyll-scholar
 
 scholar:
   style: apa               # or your preferred CSL
@@ -315,12 +313,14 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-scholar
   - jemoji
 
 # Mimic GitHub Pages with --safe
 whitelist:
   - jekyll-feed
   - jekyll-gist
+  - jekyll-scholar
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from

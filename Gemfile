@@ -1,7 +1,18 @@
 source "https://rubygems.org"
+
 gem "jekyll", "~> 4.3"
-gem "jekyll-scholar", "~> 7.1"
-# If you use Minimal Mistakes or similar:
-gem "jekyll-include-cache", "~> 0.2"
-gem "jekyll-remote-theme", "~> 0.4"  # only if you have `remote_theme:` in _config.yml
-# gem "webrick"                       # uncomment if local Ruby 3 needs it
+
+group :jekyll_plugins do
+  gem "jekyll-scholar", "~> 7.1"
+  # keep these only if you actually use them and list them in _config.yml -> plugins:
+  gem "jekyll-feed"
+  gem "jekyll-sitemap"
+  gem "jekyll-redirect-from"
+  gem "jemoji"
+  # gem "jekyll-include-cache"  # if your theme asks for it
+  # gem "jekyll-remote-theme"   # only if you use `remote_theme: ...`
+end
+
+group :development do
+  gem "webrick", "~> 1.8"  # only for local `jekyll serve` on Ruby 3
+end

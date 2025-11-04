@@ -9,6 +9,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-redirect-from"
   gem "jekyll-gist"
+  gem "jekyll-paginate"
   gem "jemoji"
   # gem "jekyll-include-cache"  # if your theme asks for it
   # gem "jekyll-remote-theme"   # only if you use `remote_theme: ...`

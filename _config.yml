@@ -37,7 +37,8 @@ author:
   pronouns         : "he/him"
   bio              : "I am a researcher working on causal machine learning methods and policy evaluation, currently based at the RMIT University and Australian Treasury."
   location         : "Melbourne, Australia"
-  employer         : "Australian National University"
+  employer         : "Australian Treasury"
+  employer         : "RMIT"
   uri              : # URL
   email            : "pbrehill@gmail.com"
 

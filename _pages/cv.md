@@ -17,7 +17,8 @@ Education
 
 Research experience
 ======
-* 2025 - Present: Research Assistant
+* 2026 - Present: Postdoctoral Research Fellow
+* 2025 : Research Assistant
   * _RMIT_
   * Conducting research on innovative causal inference methods and large, linked administrative data.
 * 2024 - Present: Evaluation Analyst

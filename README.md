@@ -15,6 +15,25 @@
 
 See more info at https://academicpages.github.io/
 
+## Editing site content from Org
+
+Most page content can now be edited from `content.org`. Each first-level heading is
+exported to one file under `_pages/`; second-level and deeper Org headings become
+headings in the generated Jekyll page.
+
+After editing `content.org`, regenerate the Jekyll pages with:
+
+```bash
+emacs --batch -l scripts/export-org-pages.el
+```
+
+If you have Node/npm available, `npm run export:org` runs the same command.
+
+The generated `_pages` files are still used by Jekyll. Site chrome such as the
+sidebar, navigation, layouts, CSS, and bibliography configuration remains in the
+normal Jekyll files. The publications page keeps using `_bibliography/papers.bib`
+through `jekyll-scholar`.
+
 ## Running locally
 
 When you are initially working your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:

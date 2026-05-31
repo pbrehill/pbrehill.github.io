@@ -17,7 +17,7 @@ redirect_from:
 
 ## Research experience
 - 2026 - Present: Postdoctoral Research Fellow
-- 2025 : Research Assistant
+- 2025: Research Assistant
   - _RMIT_
   - Conducting research on innovative causal inference methods and large, linked administrative data.
 - 2024 - Present: Evaluation Analyst
@@ -43,47 +43,5 @@ redirect_from:
 - 2018 - 2019: Teaching Associate
   - _University of Melbourne_
   - Tutored MULT30018 (Applied Research Methods), teaching quantitative research methods and SPSS to undergraduate social science students.
-  
+
 ## [Publications](https://pbrehill.github.io/publications/)
-
-[//]: # (Skills)
-
-[//]: # (======)
-
-[//]: # (* Statistical programming)
-
-[//]: # (  * R)
-
-[//]: # (  * Python)
-
-[//]: # (  * SPSS)
-
-[//]: # (* Skill 2)
-
-[//]: # (  * Sub-skill 2.1)
-
-[//]: # (  * Sub-skill 2.2)
-
-[//]: # (  * Sub-skill 2.3)
-
-[//]: # (* Skill 3)
-  
-[//]: # (Talks)
-
-[//]: # (======)
-
-[//]: # (  <ul>{% for post in site.talks reversed %})
-
-[//]: # (    {% include archive-single-talk-cv.html  %})
-
-[//]: # (  {% endfor %}</ul>)
-  
-[//]: # (Teaching)
-
-[//]: # (======)
-
-[//]: # (  <ul>{% for post in site.teaching reversed %})
-
-[//]: # (    {% include archive-single-cv.html %})
-
-[//]: # (  {% endfor %}</ul>)

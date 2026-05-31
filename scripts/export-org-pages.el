@@ -70,6 +70,8 @@
     (while (string-match "\\[\\[\\([^]\n]+?\\)\\]\\[\\([^]\n]+?\\)\\]\\]" line start)
       (setq line (replace-match "[\\2](\\1)" t nil line))
       (setq start 0))
+    (when (string-match "^\\([[:space:]]*-[[:space:]]+\\)/\\([^/\n]+\\)/[[:space:]]*$" line)
+      (setq line (replace-match "\\1_\\2_" t nil line)))
     line))
 
 (defun org-pages--render-body (lines)

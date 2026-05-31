@@ -19,7 +19,7 @@ author_profile: true
   One long page, grouped by BibTeX entry type.
 {%- endcomment -%}
 
-{% assign groups = "article:Journal articles|unpublished:Preprints|techreport:Reports" | split: "|" %}
+{% assign groups = "article:Journal articles|unpublished:Preprints|techreport:Reports|misc:Other" | split: "|" %}
 
 {% for g in groups %}
   {% assign pair = g | split: ":" %}

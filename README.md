@@ -17,9 +17,10 @@ See more info at https://academicpages.github.io/
 
 ## Editing site content from Org
 
-Most page content can now be edited from `content.org`. Each first-level heading is
-exported to one file under `_pages/`; second-level and deeper Org headings become
-headings in the generated Jekyll page.
+The pages you are most likely to edit can now be managed from `content.org`:
+About, CV, and Publications. Each first-level heading is exported to one file
+under `_pages/`; second-level and deeper Org headings become headings in the
+generated Jekyll page.
 
 After editing `content.org`, regenerate the Jekyll pages with:
 
@@ -29,10 +30,11 @@ emacs --batch -l scripts/export-org-pages.el
 
 If you have Node/npm available, `npm run export:org` runs the same command.
 
-The generated `_pages` files are still used by Jekyll. Site chrome such as the
-sidebar, navigation, layouts, CSS, and bibliography configuration remains in the
-normal Jekyll files. The publications page keeps using `_bibliography/papers.bib`
-through `jekyll-scholar`.
+The generated `_pages/about.md`, `_pages/cv.md`, and `_pages/publications.html`
+files are still used by Jekyll. Site chrome such as the sidebar, navigation,
+layouts, CSS, and bibliography configuration remains in the normal Jekyll files.
+The publications page keeps using `_bibliography/papers.bib` through
+`jekyll-scholar`.
 
 ## Running locally
 
